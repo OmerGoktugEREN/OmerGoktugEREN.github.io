@@ -1,1 +1,1 @@
-# OmerGoktuEREN.github.io
+This is what will be my project website.
