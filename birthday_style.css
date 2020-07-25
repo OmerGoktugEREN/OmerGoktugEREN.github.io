@@ -1,9 +1,42 @@
 body{
     background-color: aqua;
+    margin: auto 0;
 }
 
+
 .header{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 60% 40%;
     width: auto;
     height: 150px;
     background-color: beige;
+    justify-content: center;
+}
+
+h1{
+    margin: auto;  
+    text-align: center;
+    grid-column-start: 2;
+    color: black;
+    font-size: 5rem;
+    font-family: sans-serif;
+}
+@media only screen and (max-width:1200px){
+    h1{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width:600px){
+    h1{
+        font-size: 2rem;
+    }
+}
+h2{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    font-family: sans-serif;
 }
