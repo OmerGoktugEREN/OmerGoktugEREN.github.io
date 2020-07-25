@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+}
+
+.header{
+    width: auto;
+    height: 150px;
+    background-color: beige;
+}
